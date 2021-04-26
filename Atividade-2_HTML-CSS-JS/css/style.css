@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+html,body{
+    max-width: 100%;
+    height: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 20px; 
+}
+
+
+/*
+    INICIO DE MENU DE NAVEGAÇÃO
+*/
+nav ul {
+    width: 100%;
+    height: auto;
+    padding: 0% 2%;
+    background-color: #000000;
+    list-style: none;
+}
+nav ul img{
+    width: 10%;
+    height: auto;
+}
+nav ul li{
+    width: 95%;
+}
+nav ul li button{
+    width: 10%;
+    height: auto;
+    float: right;
+    margin: -4.5% 0% 0% 0%;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.clear{
+    clear: both;
+}
+.dropdown {
+	outline: none;
+}
+.dropdown-item:hover{
+	width: 100%;
+    background-color: #000000;
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+}
+/*
+    FIM DO MENU DE NAVEGAÇÃO
+*/
+
+
+/*
+    INICIO SECTION 1
+*/
+section.one{
+    padding: 2% 4%;
+    width: 100%;
+    margin-top: -2%;
+    height: auto;
+}
+section.one img{
+    width: 15%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: block; 
+}
+section.one h1{
+    margin: 2% 0%;
+    text-align: center;
+    font-size: 40px;
+}
+section.one p{
+    text-align: center;
+    margin-bottom: 5%;
+    padding: 0% 5%;
+}
+
+
+/*
+    INICIO da área de links
+*/
+section.one div.links {
+    width: 40%;
+    margin: 5% 0% 0% 0%;
+    height: 150px;
+}
+section.one div.links a{
+    text-decoration: none;
+}
+section.one div.links a img{
+    width: 7%;
+    height: auto;
+    margin: 0% 2%;
+    display: inline-block;
+    transition: all 0.7s ease;
+}
+section.one div.links a img:hover{
+    width: 10%;
+    height: auto;
+    margin: 0% 2%;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+/*
+    FIM da área de links
+*/
+
+
+/*
+    FIM SECTION 1
+*/
+
+
+/*
+    Rodapé - Footer
+*/
+footer{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 1%;
+    vertical-align: bottom;
+    background-color: #000000;
+    text-align: center;
+    color: #FFFFFF;
+}
+footer a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+footer a img.github{
+    width: 50px;
+    height: auto;
+    margin: 1% 0% 1% 0%; 
+    transition: all 0.7s ease;
+}
+footer a img.github:hover{
+    width: 60px;
+    height: auto;
+    margin: 1% 0% 1% 0%;
+    transition: all 0.5s ease;
+}
+footer a h5{
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFFFFF;
+    transition: all 0.7s ease;
+}
+footer a h5:hover{
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 35px;
+    transition: all 0.5s ease;
+}
+footer hr{
+    width: 90%;
+    margin: 3% 0% 5% 5%;
+    color: #FFFFFF;
+}
+/*
+    Fim Rodapé - Footer
+*/
+
+
+/*
+    INICIO SECTION-ONE-Q1
+*/
+section.one-q{
+    width: 100%;
+    height: auto;
+}
+section.one-q  form{
+    width: 75%;
+    margin: 0 auto;
+    padding: 5%;
+}
+section.one-q  form div.aluno{
+    margin-top: 4%;
+}
+section.one-q form select {
+    margin: 2% 0%;
+}
+section.one-q form select option.ocultar{
+    display: none;
+}
+section.one-q form div.nota1{
+    width: 30%;
+}
+section.one-q form div.nota2{
+    width: 30%;
+    margin-top: 4%;
+}
+section.one-q form button#botao{
+    margin: 4%;
+    color: #FFFFFF;
+    background-color: rgb(0, 102, 255);
+    float: right;
+    box-shadow: none;
+    transition: all 0.7s ease;
+}
+section.one-q form button#botao:hover{
+    margin: 4%;
+    color: #FFFFFF;
+    background-color: rgb(85, 150, 248);
+    float: right;
+    box-shadow: none;
+    transition: all 0.5s ease;
+}
+.clear{
+    clear: both;
+}
+section.one-q form div.resultado{
+    margin: 5% 0%;
+    padding: 2%;
+    border: 2px solid rgb(0, 102, 255);
+    border-radius: 12px;
+    transition: all 0.7s ease;
+}
+section.one-q form div h3#resultado{
+    text-align: center;
+    font-size: 25px;
+}
+/*
+    FIM SECTION-ONE-Q1
+*/
+
+
+/*
+    INICIO SECTION-ONE-Q2
+*/
+section.one-q{
+    width: 100%;
+    height: auto;
+}
+section.one-q form{
+    width: 75%;
+    margin: 0 auto;
+    padding: 5%;
+}
+section.one-q form div.cliente{
+    margin-top: 4%;
+}
+section.one-q form div.valorproduto{
+    width: 25%;
+    text-align: center;
+}
+section.one-q form select#parcelas{
+    width: 20%;
+    margin-top: -5%;
+    text-align: center;
+    float: right;
+}
+section.one-q form input#qtde{
+    width: 17%;
+    margin: -5% 4% 0% 0%;
+    text-align: center;
+    float: right;
+}
+section.one-q form button#botaopreco{
+    margin: -6.5% 0% 10% 35%;
+    display: block;
+    color: #FFFFFF;
+    background-color: rgb(0, 102, 255);
+    box-shadow: none;
+    transition: all 0.7s ease;
+}
+section.one-q form button#botaopreco:hover{
+    margin: -6.5% 0% 10% 35%;
+    display: block;
+    color: #FFFFFF;
+    background-color: rgb(85, 150, 248);
+    box-shadow: none;
+    transition: all 0.5s ease;
+}
+section.one-q form div.valortotal{
+    width: 30%;
+    margin: 2% 0%;
+    text-align: center;
+}
+section.one-q form button#botaogerar{
+    margin: 0 auto;
+    display: block;
+    color: #FFFFFF;
+    background-color: rgb(0, 102, 255);
+    box-shadow: none;
+    transition: all 0.7s ease;
+}
+section.one-q form button#botaogerar:hover{
+    margin: 0 auto;
+    display: block;
+    color: #FFFFFF;
+    box-shadow: none;
+    background-color: rgb(85, 150, 248);
+    transition: all 0.5s ease;
+}
+section.one-q form div.carne{
+    margin: 5% 0%;
+    padding: 2%;
+    border: 2px solid rgb(0, 102, 255);
+    border-radius: 12px;
+    transition: all 0.7s ease;
+}
+section.one-q form div img{
+    width: 30px;
+    height: auto;
+    margin-top: -1%;
+}
+section.one-q form div h3#apple{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+section.one-q form div h3#carne{
+    text-align: left;
+    font-size: 25px;
+    margin-top: 4%;
+}
+/*
+    FIM SECTION-ONE-Q2
+*/
+
+
+/*
+    INICIO SECTION-ONE-Q3
+*/
+section.one-q form div.funcionario{
+    margin-top: 4%;
+}
+section.one-q form select#cargo{
+    margin-top: 4%;
+    width: 30%;
+}
+section.one-q form div.salario{
+    margin-top: 4%;
+}
+section.one-q form div.salario input#salario{
+    width: 30%;
+    margin-right: 60%;
+}
+section.one-q form button#botaocalcular{
+    margin: 4%;
+    color: #FFFFFF;
+    background-color: rgb(0, 102, 255);
+    float: right;
+    box-shadow: none;
+    transition: all 0.7s ease;
+}
+section.one-q form button#botaocalcular:hover{
+    margin: 4%;
+    color: #FFFFFF;
+    background-color: rgb(85, 150, 248);
+    float: right;
+    box-shadow: none;
+    transition: all 0.5s ease;
+}
+section.one-q form div.contra{
+    margin: 5% 0%;
+    padding: 2%;
+    border: 2px solid rgb(0, 102, 255);
+    border-radius: 12px;
+    transition: all 0.7s ease;
+}
+section.one-q form div img{
+    width: 30px;
+    height: auto;
+    margin: -1% 1% 0% 0%;
+}
+section.one-q form div h3#cheque{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+section.one-q form div h3#contracheque{
+    text-align: left;
+    font-size: 25px;
+    margin-top: 4%;
+}
+/*
+    FIM SECTION-ONE-Q3
+*/
+
+
+/*
+    INICIO SECTION-ONE-Q4
+*/
+section.one-q form div.paciente{
+    margin-top: 4%;
+}
+section.one-q form div.peso{
+    margin-top: 4%;
+}
+section.one-q form div.peso input#peso{
+    width: 30%;
+    margin-right: 60%;
+}
+section.one-q form div.altura{
+    margin-top: 4%;
+}
+section.one-q form div.altura input#altura{
+    width: 30%;
+    margin-right: 60%;
+}
+section.one-q form div.resultado{
+    margin: 5% 0%;
+    padding: 2%;
+    border: 2px solid rgb(0, 102, 255);
+    border-radius: 12px;
+    transition: all 0.7s ease;
+}
+section.one-q form div img{
+    width: 30px;
+    height: auto;
+    margin: -1% 1% 0% 0%;
+}
+section.one-q form div h3#imc{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+section.one-q form button#botaocalcularimc{
+    margin: 4%;
+    color: #FFFFFF;
+    background-color: rgb(0, 102, 255);
+    float: right;
+    box-shadow: none;
+    transition: all 0.7s ease;
+}
+section.one-q form button#botaocalcularimc:hover{
+    margin: 4%;
+    color: #FFFFFF;
+    background-color: rgb(85, 150, 248);
+    float: right;
+    box-shadow: none;
+    transition: all 0.5s ease;
+}
+section.one-q form div h3#resultadoimc{
+    text-align: left;
+    font-size: 25px;
+    margin-top: 4%;
+}
+/*
+    FIM SECTION-ONE-Q4
+*/
