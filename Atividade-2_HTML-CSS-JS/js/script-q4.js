@@ -31,8 +31,8 @@ botaocalcularimc.addEventListener('click', () => {
     
 
     resultadoimc.innerHTML = "<b>Paciente: </b>" + paciente.value + "<br>" +
-        "<b>Peso: </b>" + peso.value + "<br>" +
-        "<b>Altura: </b>" + altura.value + "<br><br><hr>" +
+        "<b>Peso: </b>" + peso.value + " Kg <br>" +
+        "<b>Altura: </b>" + altura.value + " m <br><br><hr>" +
         "<b>IMC: " + imc .toFixed(1) + "</b>" + "<br><br><br>" +
         "<b>Obs: </b>" + info
     ;
