@@ -36,7 +36,7 @@ nav ul li button{
     width: 10%;
     height: auto;
     float: right;
-    margin: -4.5% 0% 0% 0%;
+    margin: -5% 0% 0% 0%;
     background-color: #000000;
     color: #FFFFFF;
     border: none;
@@ -270,28 +270,39 @@ section.one-q form input#qtde{
     float: right;
 }
 section.one-q form button#botaopreco{
-    margin: -6.5% 0% 10% 44%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
     display: block;
-    color: #FFFFFF;
-    background-color: rgb(0, 102, 255);
+    color: rgb(0, 102, 255);
     box-shadow: none;
     transition: all 0.7s ease;
 }
 section.one-q form button#botaopreco:hover{
-    margin: -6.5% 0% 10% 44%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
     display: block;
-    color: #FFFFFF;
-    background-color: rgb(85, 150, 248);
     box-shadow: none;
+    background-color: #FFFFFF;
+    color: rgb(85, 150, 248);
+    border: 1px solid  rgb(85, 150, 248);
     transition: all 0.5s ease;
 }
+section.one-q form h5.juros{
+    font-weight: none;
+    font-size: 12px;
+    color: #FF0000;
+    text-align: right;
+}
 section.one-q form div.valortotal{
-    width: 33%;
+    width: 40%;
     margin: 2% 0%;
     text-align: center;
 }
 section.one-q form button#botaogerar{
     margin: 0 auto;
+    margin-top: 5%;
     display: block;
     color: #FFFFFF;
     background-color: rgb(0, 102, 255);
@@ -300,6 +311,7 @@ section.one-q form button#botaogerar{
 }
 section.one-q form button#botaogerar:hover{
     margin: 0 auto;
+    margin-top: 5%;
     display: block;
     color: #FFFFFF;
     box-shadow: none;
