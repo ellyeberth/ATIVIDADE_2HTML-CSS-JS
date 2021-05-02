@@ -52,7 +52,7 @@ botaopreco.addEventListener('click', () => {
                 juros = 0;
             break;
             case "3":
-                juros = 0.03;
+                juros = 0.05;
             break;
             case "4":
                 juros = 0;
